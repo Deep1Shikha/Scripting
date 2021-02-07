@@ -1,0 +1,7 @@
+var temp= "Deep Shikha kshi dee deep raja raj ty ty py py hey hey hey";
+let frequency = new Set(temp.split(" "));
+let unique=[];
+for(let word of frequency) {
+    unique.push(word);
+}
+console.log(unique)
